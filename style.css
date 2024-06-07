@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    padding: 0 2%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: bisque;
+}
+/* la naviagation */
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 242, 200);
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+}
+nav .profile img{width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: space-between;
+
+}
+.monimage{
+    height: 40px;
+}
+nav .profile h1{
+    margin-left: 20px ;
+    font-size: 15px;
+}
+@media screen and (max-width: 700px){nav{
+    justify-content: center;
+}nav ul{
+    display: none;
+}
+.projetsection{
+    margin-top: 15%;
+}
+}
+.apropos .representationimage img{
+max-width: 50%;
+height: auto;
+margin-right: 100px;
+margin: 20px;
+align-items: center;
+}
+.sections{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+ul{
+    list-style: none;
+    cursor: pointer;
+}
+li{
+    margin-left: 10px;
+display: flex;}
+hr{
+    width: 10px;
+}
+    ul{
+        justify-content: space-between;
+        color:rgb(3, 3, 2);
+    }
+    .display{
+        color: rgb(51, 40, 2);
+        background-color:burlywood;    }
+        .btn{
+           background-color:antiquewhite ; }
+        
+        footer {
+            margin-top: auto;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10; }
+            footer .copyright {
+                margin-bottom: 10px;
+            }
+            
+            footer .social-links {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+            }
+            
+            footer .social-links .social-icon img {
+                width: 24px;
+                height: 24px;
+                justify-content: space-between;
+                display: flex;
+            }
+            img{
+                height: 30px;
+            }
+            
